@@ -1,0 +1,26 @@
+.calculator__header {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.calculator__numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.calculator__operations {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.calculator__calculate {
+    background-color: blue;
+    color: white;
+}
+
+.calculator__result {
+    text-align: center;
+}

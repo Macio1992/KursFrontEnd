@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="calculator" id="calculatorContainer">
+    <h1 class="calculator__header">Calculator</h1>
+    <div class="calculator__numbers">
+      <div class="calculator__numberValue">
+        <input class="calculator__numberInput" type="text" placeholder="First number" data-calculator-value-1>
+      </div>
+      <div class="calculator__numberValue">
+        <input class="calculator__numberInput" type="text" placeholder="Second number" data-calculator-value-2>
+      </div>
+    </div>
+    <ul class="calculator__operations">
+      <li class="calculator__operation">
+        <button class="calculator__calculate" data-calculator-operation-adding>+</button>
+      </li>
+      <li class="calculator__operation">
+        <button class="calculator__calculate" data-calculator-operation-substraction>-</button>
+      </li>
+      <li class="calculator__operation">
+        <button class="calculator__calculate" data-calculator-operation-multiplication>*</button>
+      </li>
+      <li class="calculator__operation">
+        <button class="calculator__calculate" data-calculator-operation-division>/</button>
+      </li>
+    </ul>
+    <div class="calculator__result">
+      <p class="calculator__resultInfo">Result</p>
+      <p class="calculator__resultValue" data-calculator-result-value></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
