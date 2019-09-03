@@ -52,6 +52,6 @@ divisionOperation.addEventListener('click', function () {
   const numberValue2 = calculatorContainer.querySelector('[data-calculator-value-2]');
 
   var division = 0; 
-  division = umberValue1/umberValue2
+  division = numberValue1/numberValue2
 
 });
