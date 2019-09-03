@@ -5,3 +5,5 @@
     - ile jest zadań w trakcie realizacji (ze statusem IN_PROGRESS)
     - ile jest zadań do zrobienia (ze statusem TO_DO)
 */
+
+console.log("zadanie pierwsze");
