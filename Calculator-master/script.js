@@ -51,7 +51,7 @@ divisionOperation.addEventListener('click', function () {
   const numberValue1 = calculatorContainer.querySelector('[data-calculator-value-1]');
   const numberValue2 = calculatorContainer.querySelector('[data-calculator-value-2]');
 
-  var division = 0; 
+  let division = 0; 
   division = numberValue1/numberValue2
 
 });
