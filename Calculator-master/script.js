@@ -16,7 +16,7 @@ addingOperation.addEventListener('click', function () {
   const numberValue1 = calculatorContainer.querySelector('[data-calculator-value-1]');
   const numberValue2 = calculatorContainer.querySelector('[data-calculator-value-2]');
 
-  var sum = 0;
+  let sum = 0;
   sum = number(numberValue1) + number(numberValue2);
   
 });
@@ -27,7 +27,7 @@ substractiongOperation.addEventListener('click', function () {
   const numberValue1 = calculatorContainer.querySelector('[data-calculator-value-1]');
   const numberValue2 = calculatorContainer.querySelector('[data-calculator-value-2]');
 
-  var sub = 0; 
+  let sub = 0; 
   sub = numberValue1 - numberValue2;
 
   
@@ -39,7 +39,7 @@ multiplicationOperation.addEventListener('click', function () {
   const numberValue1 = calculatorContainer.querySelector('[data-calculator-value-1]');
   const numberValue2 = calculatorContainer.querySelector('[data-calculator-value-2]');
 
-  var multiplication = 0; 
+  let multiplication = 0; 
   multiplication = numberValue1 * numberValue2;
 
 
