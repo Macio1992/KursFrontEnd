@@ -80,4 +80,4 @@
     }
   ]
 
-console.log(tasks.status);
+ console.log(próba);
