@@ -24,3 +24,7 @@
 .calculator__result {
     text-align: center;
 }
+
+.calculator__result:active {
+    color: red;
+}
