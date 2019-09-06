@@ -106,3 +106,5 @@ console.log(tasks);
 
 /* ad.3 */
 
+tasks[2] = "piotrek";
+console.log(tasks);

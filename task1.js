@@ -80,4 +80,4 @@
     }
   ]
 
-console.log(tasks);
+console.log(tasks.status);
