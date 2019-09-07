@@ -18,6 +18,21 @@ addingOperation.addEventListener('click', function () {
 
   let sum = 0;
   sum = number(numberValue1) + number(numberValue2) 
+
+  //lub example
+
+  let resultContainer = calculatorContainer.querySelector('[data-calculator-result-value]');
+
+  function resultContainer () {
+    
+    var num1, num2, res;
+    num1 = numberValue1;
+    num2 = numberValue2;
+    res = num1 + num2;
+
+    document.calculatorContainer.querySelector('[data-calculator-result-value]');
+  }
+
 });
 
 substractiongOperation.addEventListener('click', function () {
