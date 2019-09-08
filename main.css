@@ -1,0 +1,45 @@
+.myForm {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    width: 200px;
+    padding: 16px;  
+    box-sizing: border-box;
+}
+
+.myForm input {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    padding: 6px;
+    width: 200px;
+    display: block;
+}
+
+.myForm textarea {
+    width: 250px;
+    margin-left: 100px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+}
+
+.myForm__button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 28px;
+}
+
+.myForm__button:hover {
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.myForm label {
+    text-align: right; 
+}
