@@ -6,7 +6,6 @@
     - ile jest zadań do zrobienia (ze statusem TO_DO)
 */
 
-
 const tasks = [
   {
     "id": 0,
@@ -79,3 +78,81 @@ const tasks = [
     "createdAt": "2016-04-26T09:09:00+0200"
   }
 ];
+
+function statusStatistics() {
+  let DONETasks = 0;
+  let IN_PROGRESSTasks = 0;
+  let TODOTasks = 0;
+
+  for (let i = 0; i < tasks.length; i++) {
+    if (tasks[i].status === 'DONE') {
+      DONETasks++;
+    }
+
+    if (tasks[i].status === 'IN_PROGRESS') {
+      IN_PROGRESSTasks++;
+    }
+
+    if (tasks[i].status === 'TODO') {
+      TODOTasks++;
+    }
+  }
+
+  return {
+    doneTasks: DONETasks,
+    inProgressTasks: IN_PROGRESSTasks,
+    todoTasks: TODOTasks
+  };
+}
+
+function statusStatistics2() {
+  let DONETasks = tasks.filter(function (task) {
+    return task.status === 'DONE';
+  });
+
+  let IN_PROGRESSTasks = tasks.filter(function (task) {
+    return task.status === 'IN_PROGRESS';
+  });
+
+  let TODOTasks = tasks.filter(function (task) {
+    return task.status === 'TODO';
+  });
+
+  return {
+    doneTasks: DONETasks.length,
+    inProgressTasks: IN_PROGRESSTasks.length,
+    todoTasks: TODOTasks.length
+  };
+}
+
+console.log(statusStatistics2());
+
+const people = [
+  {
+    name: 'Mark',
+    age: 30
+  },
+  {
+    name: 'Steve',
+    age: 23
+  },
+  {
+    name: 'Carl',
+    age: 30
+  },
+
+];
+
+function xAges() {
+  let age = 0;
+
+  for (let i = 0; i < people.length; i++) {
+    if (people[i].age === 30) {
+      age++;
+    }
+  }
+
+  return age;
+}
+
+console.log(xAges());
