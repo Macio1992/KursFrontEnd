@@ -6,7 +6,7 @@
 */
 
 
-var tasks = [
+const tasks = [
   {
     "id": 0,
     "title": "Zrozumieć zadanie",
@@ -77,32 +77,27 @@ var tasks = [
     "status": "TODO",
     "createdAt": "2016-04-26T09:09:00+0200"
   }
-]
+];
 
 /* ad.1 */
 
-tasks.push({"id": 10, "title": "Kolory statusów",
-"description": "rozróżnianie kolorami zadań w poszczególnych statusach",
-"status": "TODO",
-"createdAt": "2016-04-26T09:06:00+0200" });
+function newTasks() {
+  return tasks.unshift({ "id": 12,
+  "title": "Zaniedbane zadania",
+  "description": "wyróżnianie zadań, które są realizowane dłużej niż 3 dni bądź czekają na realizację dłużej niż 5 dni (oba parametry niezależnie konfigurowalne i zapisywane w ciasteczku)",
+  "status": "TODO",
+  "createdAt": "2016-04-26T09:09:00+0200"});
+}
 
-console.log(tasks);
+//tasks();
+newTasks();
 
 /* ad.2 */
 
-const delEL = tasks.splice(2 ,1);
-console.log(delEL);
-
-const elDeleted = tasks.shift();
-console.log(elDeleted);
-
-const value = 3
-
-tasks = tasks.filter(function(item) { 
-    return item !== value
-})
-
-console.log(tasks);
+function delTasks() {
+  return tasks.shift();
+}
+delTasks();
 
 /* ad.3 */
 
