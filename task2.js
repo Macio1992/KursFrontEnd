@@ -89,17 +89,10 @@ function newTasks() {
   "createdAt": "2016-04-26T09:09:00+0200"});
 }
 
-//tasks();
-newTasks();
-
 /* ad.2 */
 
 function delTasks() {
   return tasks.shift();
 }
-delTasks();
 
 /* ad.3 */
-
-tasks[2] = "piotrek";
-console.log(tasks);
