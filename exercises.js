@@ -1,0 +1,3 @@
+/*
+    Sprawdź czy jest Array
+*/
