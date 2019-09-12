@@ -82,17 +82,17 @@ const tasks = [
 /* ad.1 */
 
 function newTasks() {
-  return tasks.unshift({ "id": 12,
-  "title": "Zaniedbane zadania",
-  "description": "wyróżnianie zadań, które są realizowane dłużej niż 3 dni bądź czekają na realizację dłużej niż 5 dni (oba parametry niezależnie konfigurowalne i zapisywane w ciasteczku)",
-  "status": "TODO",
-  "createdAt": "2016-04-26T09:09:00+0200"});
+  tasks.push({title: 'Niezaniedbane zadania', description: 'Wyrózniane adań', status: 'TODO', createdAt: '2019-09-23'});
 }
 
 /* ad.2 */
 
-function delTasks() {
-  return tasks.shift();
+function  deletedTasks() {
+  tasks.splice(0, 1);
 }
 
 /* ad.3 */
+
+function addTasks() {
+  tasks[0].title = 'Pięknie';
+}
