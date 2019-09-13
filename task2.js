@@ -81,18 +81,22 @@ const tasks = [
 
 /* ad.1 */
 
-function newTasks() {
-  tasks.push({title: 'Niezaniedbane zadania', description: 'Wyrózniane adań', status: 'TODO', createdAt: '2019-09-23'});
+function newTask(passedTitle, passedDescription, passedStatus) {
+  tasks.push({title: passedTitle, description: passedDescription, status: passedStatus, createdDate: Date.now()});
 }
 
 /* ad.2 */
 
-function  deletedTasks() {
+function  deleteTask(id) {
   tasks.splice(0, 1);
+}
+
+function deletedTask(id) {
+  tasks.shift();
 }
 
 /* ad.3 */
 
-function addTasks() {
+function editTask() {
   tasks[0].title = 'Pięknie';
 }
