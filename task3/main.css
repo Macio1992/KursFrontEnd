@@ -1,18 +1,19 @@
 .myForm {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    padding: 16px;
+    font-size: 1rem;
+    padding: 6px;
 }
 
 .myForm input {
     border: 1px solid lightgrey;
     border-radius: 3px;
-    padding: 6px;
 }
 
 .myForm textarea {
     border: 1px solid lightgrey;
     border-radius: 2px;
+    padding: 6px;
+    margin: 5px;
 }
 
 .myForm__button {
@@ -30,5 +31,7 @@
 }
 
 .myForm label {
-    text-align: right; 
+    text-align: right;
+    float: left !important;
+    clear: left !important;
 }
