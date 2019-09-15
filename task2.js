@@ -87,12 +87,12 @@ function newTask(passedTitle, passedDescription, passedStatus) {
 
 /* ad.2 */
 
-function deletedTask(id) {
-  tasks.shift();
+function deleteTask(id) {
+  tasks.splice(0, id);
 }
 
 /* ad.3 */
 
-function editTask(newTitle, newDescription, newStatus, taskID) {
-  tasks[0].id(taskID);
+function editTask({newTitle, newDescription, newStatus, taskID}) {
+  tasks[taskID] = "Dobrze?";
 }
