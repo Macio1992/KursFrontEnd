@@ -1,3 +1,6 @@
+//https://edabit.com/challenge/ppBDRwSoqZYcR95Aq
+
+//Create a function that returns the index of the first vowel in a string.
 
 function firstVowel (str) {
     console.log(str.search('a'));
