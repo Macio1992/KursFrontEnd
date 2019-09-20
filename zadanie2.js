@@ -14,5 +14,5 @@ If you get stuck on a challenge, find help in the Resources tab.
 If you're really stuck, unlock solutions in the Solutions tab.*/
 
 function triArea(base, height) {
-    return base * height / 2;
+  return base * height / 2;
 }

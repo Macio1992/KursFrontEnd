@@ -12,5 +12,5 @@ Notes
 Don't forget to return your answer.*/
 
 function howManySeconds(hours) {
-    return hours * 3600;
+  return hours * 3600;
 }

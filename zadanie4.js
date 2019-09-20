@@ -15,4 +15,3 @@ If you're really stuck, unlock solutions in the Solutions tab.*/
 function addition(num) {
 	return num + 1;
 }
-

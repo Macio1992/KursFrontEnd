@@ -11,5 +11,5 @@ Notes
 The first element in an array always has an index of 0.*/
 
 function getFirstValue(arr) {
-    return arr[0];
+  return arr[0];
 }
