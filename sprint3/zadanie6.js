@@ -18,6 +18,3 @@ If you're really stuck, unlock solutions in the Solutions tab.*/
 function remainder(x, y) {
 	return x % y;
 }
-
-
-
