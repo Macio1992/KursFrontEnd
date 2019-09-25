@@ -1,6 +1,6 @@
 /*
 	Stwórz tablicę obiektów. Nazwij ją 'tasks'. Przypisz do niej zadania z pliku 'tasks.json'.
-	Wypisz do konsoli wszystkie elementy tablicy 'tasks' w następujący sposób:
+	Stwórz funkcję, która Wypisze do konsoli wszystkie elementy tablicy 'tasks' w następujący sposób:
 	Zadanie o tytule: "<title>" ma opis: "<description>".
 
 	Przykładowe jedno wypisane zadanie:
