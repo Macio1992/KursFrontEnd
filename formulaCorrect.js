@@ -4,7 +4,6 @@ const allowedCharacters = ['+', '-', '*', '/', '=', '(', ')', 'a', ' '];
 
 function checkIfCharactersAllowed(str) {
     let regex = /^((([0-9]+)|a)[\+\-\*\/\=\(\)])$/;
-    // let regex = /^([0-9]+)|[a]{1}$/;
     return regex.test(str);
 }
 
