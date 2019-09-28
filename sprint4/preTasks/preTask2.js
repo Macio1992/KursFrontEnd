@@ -77,15 +77,11 @@
     }
   ];
 
-  function  statusStatistic() {
-  let DONETasks = 0;
-
-  for (let i = 0; i < tasks.length; i++) {
-    if(tasks[i].status === 'DONE'){
-      DONETasks++;
-    }
+  function statusStatistic() {
+    let DONETasks = tasks.filter(function(task) {
+      return task.status === 'DONE';
+    });
+    return {
+      doneTasks: DONETasks.length
+    };
   }
-  return {
-    doneTasks: DONETasks
-  };
-}
