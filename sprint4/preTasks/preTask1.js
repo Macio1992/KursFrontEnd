@@ -84,7 +84,7 @@ let tasks = [
 	];
 
 	function newTasks(el) {
-    tasks[0]["title"] = "Przeczytać opis zadania i go zrozumieć";
-    return el = tasks[0]["title"];
+		tasks[0]["title"] = "Przeczytać opis zadania i go zrozumieć";
+		return el = tasks[0]["title"];
 	}
 
