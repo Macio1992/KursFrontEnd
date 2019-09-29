@@ -88,4 +88,3 @@
       console.log(tasks[i].title + " ma opis: " + tasks[i].description);
     }
   }
-writeTasks();
