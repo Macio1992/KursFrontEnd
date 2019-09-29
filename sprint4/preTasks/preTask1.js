@@ -10,7 +10,7 @@
 */
 
 
-let tasks = [
+  const tasks = [
     {
       "id": 0,
       "title": "Zrozumieć zadanie",
@@ -83,8 +83,9 @@ let tasks = [
     }
 	];
 
-	function newTasks(el) {
-		tasks[0]["title"] = "Przeczytać opis zadania i go zrozumieć";
-		return el = tasks[0]["title"];
-	}
-
+  function writeTasks() {
+    for (let i = 0; i < tasks.length; i++) {
+      console.log(tasks[i].title + " ma opis: " + tasks[i].description);
+    }
+  }
+writeTasks();
