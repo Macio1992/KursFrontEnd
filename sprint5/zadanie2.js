@@ -17,8 +17,8 @@ function isEmpty(s) {
   return s === "";
 }
 
-/*Stowrzyłam funkcję o nazwie isEmpty. Argument tej funkcji nazywa się "s".
-Funkcja ta pobiera argumenty, ktora zwraca true, jeśli
-ciąg znaków jest pusty i false. Funkcja składa się z jednej instrukcji, która
-sygnalizuje zwrot argumentu funkcji zwracanej, jezeli argumenty są równe i tego samego typu.*/
+/*Stworzyłam funkcję o nazwie isEmpty. Argument tej funkcji nazywa się "s".
+Funkcja zwraca true gdy ciąg znaków jest pusty ("") posiadają takie same znaki,
+są równe, w przeciwnym zwraca false gdy nie są równe.*/
+
 
