@@ -18,7 +18,6 @@ function isEmpty(s) {
 }
 
 /*Stworzyłam funkcję o nazwie isEmpty. Argument tej funkcji nazywa się "s".
-Funkcja zwraca true gdy ciąg znaków jest pusty ("") posiadają takie same znaki,
-są równe, w przeciwnym zwraca false gdy nie są równe.*/
-
+Funkcja zwraca true gdy ciąg znaków jest pusty,
+kiedy funkcja zwraca false gdy ciąg nie jest pusty.*/
 

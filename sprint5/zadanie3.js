@@ -13,11 +13,9 @@ If you get stuck on a challenge, find help in the Resources tab.
 If you're really stuck, unlock solutions in the Solutions tab.*/
 
 function concatName(firstName, lastName) {
-	return lastName + ', ' + firstName;
-	//return lastName.concat(', ', firstName);
-}
+  return lastName + ', ' + firstName
+};
 
 /*Stworzyłam funkcję o nazwie "concatName". Jej argumenty nazywają się firstName, lastName.
-Instrukcja return stanowi treść właściwą tej funkcji. Funkcja ta pobiera argumenty, ktora
+Funkcja ta zwraca nowy ciąg, ktora łączy argumenty ciągów do łańcucha.
 łączy argumenty ciągów do łańcucha i zwraca nowy ciąg.*/
-

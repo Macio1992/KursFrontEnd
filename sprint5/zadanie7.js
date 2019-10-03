@@ -9,3 +9,11 @@ search([2, 4, 6, 8, 10], 8) ➞ 3
 search([1, 3, 5, 7, 9], 11) ➞ -1
 Notes
 If the item is not present, return -1.*/
+
+function search(arr, item) {
+  return arr.indexOf(item);
+}
+
+/* Stworzyłam funkcję "search", która przyjmuje dwa parametry arr, item.
+Funkcja ta zwraca pierwszy indeks, przy którym dany element mozna
+znalezc w tablicy lub -1 jeśli nie znaleziono.*/

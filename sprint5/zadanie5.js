@@ -11,3 +11,10 @@ Notes
 Don't forget to return the result.
 If you get stuck on a challenge, find help in the Resources tab.
 If you're really stuck, unlock solutions in the Solutions tab.*/
+
+function reverse(arr) {
+  return arr.reverse();
+}
+
+/*Stworzyłam funkcję o nazwie reverse. Argument tej funkcji nazywa się "arr".
+Wywołanie funkcji reverse zwraca odwołanie do odwróconej tablicy.*/
