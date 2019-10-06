@@ -18,6 +18,7 @@ function isEmpty(s) {
 }
 
 /*Stworzyłam funkcję o nazwie isEmpty. Argument tej funkcji nazywa się "s".
-Funkcja zwraca true gdy ciąg znaków jest pusty,
-kiedy funkcja zwraca false gdy ciąg nie jest pusty.*/
+Funkcja zwraca true gdy ciąg znaków jest pusty, kiedy zwraca false
+gdy ciąg nie jest pusty.*/
+
 
