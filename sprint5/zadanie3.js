@@ -18,4 +18,3 @@ function concatName(firstName, lastName) {
 
 /*Stworzyłam funkcję o nazwie "concatName". Jej argumenty nazywają się firstName, lastName.
 Funkcja zwraca łańcuch znaków, ktory łączy argumenty i zwraca nowy ciąg.*/
-

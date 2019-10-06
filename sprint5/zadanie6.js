@@ -18,8 +18,7 @@ function search(arr, item) {
 }
 
 /*Stworzyłam funkcję o nazwie search, która przyjmuje argumenty arr, item.
-W pętli i=0 zaczyna się od początku. W kazdej pętli sprawdzamy, czy
-i jest mniejsze niz liczba elementów, która przechodzi po tablicy,
-gdy zmienna i++ zwiększa o jeden, kończymy iterowanie.
-Instrukcja if sprawdzamy warunek, czy jest równy.
-Funkcja zwraca gdy jest poprany warunek jako index lub -1 nie znaleziono.*/
+Pętla zaczyna się od początku i=0, warunek pętli sprawdza, czy
+i jest mniejsze niz liczba elementów, w kazdym obiegu pętli zmienna i jest
+większa o jeden, w ciele pętli sprawdzamy czy jest równy, funkcja zwraca
+coś gdy jest poprany warunek jako index lub -1 nie znaleziono.*/
