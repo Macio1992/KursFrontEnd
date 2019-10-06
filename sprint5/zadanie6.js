@@ -11,9 +11,15 @@ Notes
 If the item is not present, return -1.*/
 
 function search(arr, item) {
-	return arr.indexOf(item);
+	for (let i=0; i<arr.length; i++) {
+		if(arr[i] === item) return i;
+	}
+	return -1;
 }
 
-/* Stworzyłam funkcję "search", która przyjmuje dwa parametry arr, item.
-Funkcja ta zwraca pierwszy indeks, przy którym dany element mozna
-znalezc w tablicy lub -1 jeśli nie znaleziono.*/
+/*Stworzyłam funkcję o nazwie search, która przyjmuje argumenty arr, item.
+W pętli i=0 zaczyna się od początku. W kazdej pętli sprawdzamy, czy
+i jest mniejsze niz liczba elementów, która przechodzi po tablicy,
+gdy zmienna i++ zwiększa o jeden, kończymy iterowanie.
+Instrukcja if sprawdzamy warunek, czy jest równy.
+Funkcja zwraca gdy jest poprany warunek jako index lub -1 nie znaleziono.*/

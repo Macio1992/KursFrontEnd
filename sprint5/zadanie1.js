@@ -16,7 +16,6 @@ function comp(str1, str2) {
   return str1.length === str2.length;
 }
 
-/*Stworzyłam funkcję o nazwie "comp", która przyjmuje dwa ciągi jako parametry.
-Funkcja ta zwraca true gdy całkowita liczba znaków w pierwszym ciągu
-jest równa całkowitej liczbie znaków w drugim ciągu, zwraca false gdy
-całkowita liczba znaków nie jest równa całkowitej liczbie w drugim ciągu.*/
+/*Stworzyłam funkcję o nazwie "comp", która przyjmuje dwa łańcuchy znaków jako parametry.
+Funkcja ta zwraca true gdy w pierwszym łańcuchu znaków jest równa w drugim,
+zwraca false gdy nie jest równa.*/
