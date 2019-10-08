@@ -20,5 +20,6 @@ function search(arr, item) {
 /*Stworzyłam funkcję o nazwie search, która przyjmuje argumenty arr, item.
 Pętla zaczyna się od początku i=0, warunek pętli sprawdza, czy
 i jest mniejsze niz liczba elementów, w kazdym obiegu pętli zmienna i jest
-większa o jeden, w ciele pętli sprawdzamy czy jest równy, funkcja zwraca
-coś gdy jest poprany warunek jako index lub -1 nie znaleziono.*/
+większa o jeden, w ciele pętli sprawdzamy czy indeks znajdzie dany element
+w tablicy , funkcja zwraca przy którym dany element moze znajdować się w tablicy
+lub -1 jeśli jest  nieobecna.*/

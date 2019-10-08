@@ -21,8 +21,7 @@ function reverse(arr) {
 }
 
 /*Stworzyłam funkcję o nazwie reverse. Argument tej funkcji nazywa się "arr".
-W funkcji stworzyłam nową zmienną lokalną z pustą tablicą.
-W pętli i= arr.length-1 zaczyna się od końca. W kazdej pętli sprawdzamy, czy
-i jest większe i równe niz liczba elementów, która przechodzi po tablicy,
-gdy zmienna i-- (o ile istnieje) uzyska tę wartość, pętla zostanie przerwana.
-Funkcja zwraca nową tablicę z odwrócenie elementów.*/
+W funkcji stworzyłam nową zmienną lokalną, która jest tablicą.
+W pętli, indeks ustawiam na końcu, warunek pętli sprawdza czy i jest większe bądź
+równe od zera, w kazdym obiegu pętli zmienna i zmiejsza o jeden.
+Funkcja zwraca odwróconą listę elementów.*/
