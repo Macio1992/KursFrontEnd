@@ -17,5 +17,5 @@ function comp(str1, str2) {
 }
 
 /*Stworzyłam funkcję o nazwie "comp", która przyjmuje dwa łańcuchy znaków jako parametry.
-Funkcja ta zwraca true gdy w pierwszym łańcuchu znaków jest równa w drugim łańcuchu o tej
-samej długości zanków, zwraca false gdy nie jest równa.*/
+Funkcja ta zwraca true gdy w pierwszym łańcuchu znaków liczba jest równa ilości napisie
+w drugim łańcuchu o tej samej wartości, zwraca false gdy nie jest równa.*/
