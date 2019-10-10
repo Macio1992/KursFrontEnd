@@ -26,11 +26,13 @@
 */
 
 function getNumber() {
-  for (let i = 0; i <= 100; i++) {
+  let tab = [0,1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100];
+  console.log(tab);
+  /*for (let i = 0; i <= 100; i++) {
     console.log(0,1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100);
-  }
+  }*/
 }
-
+getNumber();
 /*
   Zadanie 4. Napisz funkcję, która przyjmie liczbę całkowitą i wypisze wszystkie liczby
   od tej liczby całkowitej do 100. Jeżeli użytkownik poda liczbę większą niż 100, poinformuj
