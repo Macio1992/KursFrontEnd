@@ -6,7 +6,7 @@ function addNumber () {
   let arr = [1,2,4,6,8,9,10];
   let suma = 0;
     for (let i = 0; i < arr.length; i++ ) {
-      suma += arr[i];
+      console.log(suma += arr[i]);
     }
   }
-  console.log(addNumber());
+addNumber();

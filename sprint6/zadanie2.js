@@ -2,7 +2,11 @@
   Zadanie 2. Stwórz funkcję, która przyjmie tablicę liczb całkowitych i zwróci ich sumę.
 */
 
-function calcNumber (a , b) {
-  console.log(a + b);
+function calcNumber (arr) {
+  let sum = 0;
+  for( let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+  }
+  return sum;
 }
-calcNumber(3, 5);
+console.log(calcNumber([2,4,5]));
