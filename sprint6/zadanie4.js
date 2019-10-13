@@ -4,11 +4,13 @@
   go żeby wpisał mniejszą liczbę niż 100
 */
 
-function showUser(number) {
-  if (number < 100) {
-    return true;
+function myFunc (a, b) {
+  if (a < b) {
+    console.log(3,4,5,6,7,8,9,10);
   } else {
-    return ('Fill in this a smaller number than 100, please.');
+    if (b > a) {
+      console.log("Zle podałeś");
+    }
   }
 }
-console.log(showUser(105, 120));
+myFunc(3, 10);
