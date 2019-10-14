@@ -3,8 +3,12 @@
 */
 
 function getNumber() {
-  for (i = 0; i <= 100; i++) {
+  for (let i = 0; i <= 100; i++) {
     console.log(i);
   }
 }
-getNumber();
+
+/*Stworzyłam funkcję o nazwie "getNumber". Pętla zaczyna się do początku,
+warunek pętli sprawdza, czy i jest mniejsze bądź równe od 100,
+w kazdym obiegu pętli zmienna i jest większa o jeden, w ciele pętli sprawdzamy
+czy pojawi się ciąg liczb od 0 do 100.*/
