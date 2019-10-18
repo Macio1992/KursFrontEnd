@@ -5,17 +5,13 @@
 */
 
 function takeNumber (begin, end) {
-  if (begin < end) {
-    console.log(begin, end);
-  } else {
-    if (begin > end) {
-      console.log("You gave it wrong");
+  for (let i = begin; i <= end; i++) {
+    if ( begin < end) {
+      console.log(i);
+    } else {
+      if (begin > end) {
+        console.log('You entered the numbers incorrectly. The beginning should be bigger than the end');
+      }
     }
   }
 }
-/*Stworzyłam funkcję o nazwie "takeNumber", która przyjmuje dwa parametry
-(begin, end) i zostanie przekazany do tej funkcji. Na pierwszej linii instrukcja
-if (begin < end) oznacza to, ze przetestuje wartość liczby. Będzie sprawdzał,
-czy jego liczba begin będzie mniejsza niz end wypisze wszystkie liczby.
-Druga linia else określa, co zrobić, jeśli uzytkownik poda większą liczbę
-end niz begin pojawi się komunikat z prośbą o podanie liczby odwrotnie.*/

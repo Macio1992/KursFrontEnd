@@ -2,11 +2,14 @@
   Zadanie 1. Stwórz funkcję, zadeklaruj w niej tablicę kilku liczb całkowitych,
   oblicz sumę liczb z tablicy i wypisz do konsoli tę sumę.
 */
-function addNumber () {
-  let arr = [1,2,4,6,8,9,10];
-  let suma = 0;
-    for (let i = 0; i < arr.length; i++ ) {
-      console.log(suma += arr[i]);
-    }
+
+  function sumNumber() {
+    let arr = [1,2,3,4,5,6,7,8,9,10];
+    let suma = 0;
+    for (let i = 0; i < arr.length; i++) {
+        suma = suma + arr[i];
+        arr[i]++;
   }
-addNumber();
+  console.log(suma);
+  }
+myFunc();
