@@ -12,4 +12,3 @@
   }
   console.log(suma);
   }
-myFunc();
