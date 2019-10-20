@@ -4,11 +4,11 @@
   go żeby wpisał mniejszą liczbę niż 100
 */
 
-function showUser(number) {
-    if (number < 100) {
-      console.log(number);
-    } else {
-      console.log('Fill in this a smaller number than 100, please.');
-    }
+function writeNumber(n) {
+  if(n<=100)
+  for (let i=0; i<=n; i++){
+    console.log(i);
+  } else {
+    console.log('You entered the numbers incorrectly. The number should by smaller than 100.');
   }
-showUser(29);
+}
