@@ -11,3 +11,9 @@
   }
   console.log(suma);
   }
+
+  /*Stworzyłam funkcję o nazwie "sumNumber".
+  Zadeklarowałam dwie zmienne o nazwie arr i sum. Zmienna "arr"
+  przechowywuje wartość liczb całkowitych, a zmienna "sum"
+  przypisuje wartość zerową. Pętla wykonuje się przy kazdej iteracji,
+  która sumuje wszystkie elementy tablicy.*/

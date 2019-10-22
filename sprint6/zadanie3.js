@@ -8,7 +8,7 @@ function writeNumber() {
   }
 }
 
-/*Stworzyłam funkcję o nazwie "writeNumber". Pętla zaczyna się do początku,
-warunek pętli sprawdza, czy i jest mniejsze bądź równe od 100,
-w kazdym obiegu pętli zmienna i jest większa o jeden, w ciele pętli sprawdzamy
-czy pojawi się ciąg liczb od 0 do 100.*/
+/*Stworzyłam funkcję o nazwie "writeNumber". Na początku ustawiam licznik na wartość zerową,
+następnie ustalam, ze pętla zakończy się gdy nasz licznik dojdzie do 100.
+Wypisywana wartość pętli zaczyna się od zera i jest zwiększana o jeden az
+osiągnie liczbę 100. Pętla będzie wypisywała po kolei kazdej liczby.*/

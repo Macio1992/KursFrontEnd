@@ -12,5 +12,5 @@ function sumNumber (arr) {
 
 /*Stworzyłam funkcję o nazwie "copyNumber", która przyjmuje jeden parametr "arr".
 Stworzyłam zmienną lokalną o nazwie sum, do której przypisuje wartość zerową.
-Pętla sprawdza długość tablicy odpowiada liczbie jej elementów.
-Do sumy dodajemy kolejne liczby z tablicy. Funkcja zwraca wyliczoną wartość liczb całkowitych.*/
+Pętla wykonuje się przy kazdej iteracji, która sumuje wszystkie parametry.
+Funkca zwraca wynikk sumy.*/
