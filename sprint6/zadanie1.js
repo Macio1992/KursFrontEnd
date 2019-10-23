@@ -8,12 +8,13 @@
     let suma = 0;
     for (let i = 0; i < arr.length; i++) {
         suma = suma + arr[i];
-  }
-  console.log(suma);
+    }
+    console.log(suma);
   }
 
   /*Stworzyłam funkcję o nazwie "sumNumber".
-  Zadeklarowałam dwie zmienne o nazwie arr i sum. Zmienna "arr"
-  przechowywuje wartość liczb całkowitych, a zmienna "sum"
-  przypisuje wartość zerową. Pętla wykonuje się przy kazdej iteracji,
+  Zadeklarowałam dwie zmienne o nazwie arr i sum. Zmienna "arr",
+  w którym tablica przechowuje wartość liczb całkowitych,
+  a zmienna "sum" przypisuje wartość zerową.
+  Pętla wykonuje się przy kazdej iteracji,
   która sumuje wszystkie elementy tablicy.*/
