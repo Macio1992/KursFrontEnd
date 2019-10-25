@@ -13,7 +13,7 @@ function writeNumber(n) {
       console.log('You entered the numbers incorrectly. The number should by smaller than 100.');
     }
   }
-writeNumber(70);
+
 /*
 Stworzyłam funkcję o nazwie "writeNumber", który przyjmuje
 jeden parametr "n". Pierwsza instrukcja warunkowa
