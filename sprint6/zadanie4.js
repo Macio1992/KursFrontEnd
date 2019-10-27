@@ -5,9 +5,8 @@ go żeby wpisał mniejszą liczbę niż 100
 */
 
 function writeNumber(n) {
-  let i = 0;
   if (n < 100) {
-    for (let i = 1; i <= 100; i++){
+    for (let i = n; i <= 100; i++){
       console.log(i);
     }
   } else {
@@ -17,9 +16,9 @@ function writeNumber(n) {
 
 /*
 Stworzyłam funkcję o nazwie "writeNumber", który przyjmuje
-jeden parametr "n". Pierwsza instrukcja warunkowa
+jeden parametr "n". W funkcji pierwsza instrukcja warunkowa if
 sprawdza, czy wartość podanej liczby będzie mniejszy bądz równy od 100,
-kod wypisze liczby całkowite do 70 (np. od 60 do 70).
+funkcja zwraca przy podaniu róznych liczb do 100.
 Jezeli drugi warunek nie zostanie spełniony, zostanie
 wykonana po instrukcji i wyświetli komunikat
 ('You entered the numbers incorrectly. The number should by smaller

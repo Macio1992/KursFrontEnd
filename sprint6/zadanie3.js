@@ -9,8 +9,8 @@ function writeNumber() {
 }
 
 /*
-Stworzyłam funkcję o nazwie "writeNumber". Na początku ustawiam licznik na wartość zerową,
+Stworzyłam funkcję o nazwie "writeNumber". W funkcji ustawiam licznik na wartość zerową,
 następnie ustalam, ze pętla zakończy się gdy nasz licznik dojdzie do 100.
 Wypisywana wartość pętli zaczyna się od zera i jest zwiększana o jeden az
-osiągnie liczbę 100. Pętla będzie wypisywała po kolei kazdej liczby.
+osiągnie liczbę 100. Funkcja zwraca kazdej liczbie całkowitej.
 */

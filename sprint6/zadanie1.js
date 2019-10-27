@@ -14,9 +14,10 @@ oblicz sumę liczb z tablicy i wypisz do konsoli tę sumę.
 
 /*
 Stworzyłam funkcję o nazwie "sumNumber".
-Zadeklarowałam dwie zmienne o nazwie arr i sum. Zmienna "arr",
-jest przypisywana wartość liczby naturalnej w tablicy,
-następnie zmienna "sum" jest przypisywana wartość zerową.
-Pętla wykonuje się przy kazdej iteracji,
-która sumuje wszystkie elementy tablicy.
+W funkcji zadeklarowałam zmienne o nazwie arr i sum.
+Zmienna "arr", jest przypisywana tablicę liczb naturalnych,
+następnie stworzyłam zmienną lokalną o nazwie "sum",
+do której przypisuje wartość zerową. Pętla wykonuje się przy
+kazdej iteracji, która sumuje wszystkie elementy tablicy.
+Funkcja zwraca wynik sumy.
 */

@@ -14,12 +14,12 @@ function writeNumbersFromTheRange(begin, end) {
   }
 }
 
-/*Stworzyłam funkcję o nazwie "writeNumbersFromTheRange", która przyjmuje
-dwa parametry 'begin' i 'end'. Pierwsza instrukcja warunkowa
-sprawdza, czy wartość begin jest mniejsza od end, będzie to
-oznaczało, ze liczba mieści się w przedziale od 'begin' do 'end' i wypisze
+/*
+Stworzyłam funkcję o nazwie "writeNumbersFromTheRange", która przyjmuje
+dwa parametry 'begin' i 'end'. W funkcji pierwsza instrukcja warunkowa
+sprawdza, czy wartość begin jest mniejsza od end, funkcja zwraca
 wszystkie liczby naturalne. Jeśli drugi warunek nie będzie spełniony wykonane
-zostanie polecenie po instrukji else. Zostanie wyświetlany komunikat
+zostanie polecenie po instrukji else. Po wywołaniu funckji zostaje wyświetlony komunikat
 ('You entered the numbers incorrectly. The beginning should be bigger
 than the end').
 */
