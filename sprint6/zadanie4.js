@@ -5,8 +5,9 @@ go żeby wpisał mniejszą liczbę niż 100
 */
 
 function writeNumber(n) {
-  if (n <= 100) {
-    for (let i = 60; i <= n; i++){
+  let i = 0;
+  if (n < 100) {
+    for (let i = 1; i <= 100; i++){
       console.log(i);
     }
   } else {
