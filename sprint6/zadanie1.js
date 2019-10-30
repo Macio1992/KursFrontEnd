@@ -1,6 +1,7 @@
 /*
-Zadanie 1. Utwórz funkcję, zadeklaruj w niej tablicę kilku liczb całkowitych,
-oblicz sumę liczb z tablicy i wypisz do konsoli tę sumę.
+Zadanie 1. Utwórz funkcję, zadeklaruj w niej tablicę kilku liczb
+całkowitych, oblicz sumę liczb z tablicy i wypisz do konsoli
+tę sumę.
 */
 
 function sumNumber() {
