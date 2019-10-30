@@ -4,7 +4,7 @@ Zadanie 2. Stwórz funkcję, która przyjmie tablicę liczb całkowitych i zwró
 
 function sumNumber(arr) {
   let sum = 0;
-  for(let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     sum = sum + arr[i];
   }
   return sum;
@@ -13,6 +13,6 @@ function sumNumber(arr) {
 /*
 Stworzyłam funkcję o nazwie "sumNumber", która przyjmuje jeden parametr "arr".
 Stworzyłam zmienną lokalną o nazwie sum, do której przypisuje wartość zerową.
-Pętla wykonuje się przy kazdej iteracji, która sumuje wszystkie parametry.
-Funkcja zwraca wynikk sumy.
+W kazdej iteracji pętli wykonywane jest sumowanie kolejnych elementów tablicy
+liczb całkowitych. Funkcja zwraca wynik sumy.
 */
