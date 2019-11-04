@@ -19,7 +19,7 @@ Stworzyłam funkcję o nazwie "writeNumbersFromTheRange", która przyjmuje
 dwa parametry 'begin' i 'end'. W funkcji pierwsza instrukcja warunkowa
 sprawdza, czy wartość begin jest mniejsza od end, jeśli tak, wyświetli
 wszystkie liczby naturalne. W przeciwnym razie, kiedy warunek jest fałszywy
-wykonane zostanie polecenie po instrukji else. Po wywołaniu funkcji zostaje
-wyświetlony komunikat ('You entered the numbers incorrectly. The beginning
+wykonane zostanie polecenie po instrukji else, wyświetli kod
+('You entered the numbers incorrectly. The beginning
 should be bigger than the end').
 */

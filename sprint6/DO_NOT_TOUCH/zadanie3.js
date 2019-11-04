@@ -9,8 +9,7 @@ function writeNumbersTo100() {
 }
 
 /*
-Stworzyłam funkcję o nazwie "writeNumbersTo100". W funkcji ustawiam licznik
-na wartość zerową, następnie ustalam, ze pętla zakończy się gdy nasz licznik
-dojdzie do 100. Wypisywana wartość pętli zaczyna się od zera i jest zwiększana
-o jeden az osiągnie liczbę 100. W pętli wartość wypisuje kazdej liczbie całkowitej.
+Stworzyłam funkcję o nazwie "writeNumbersTo100". W pętli wykonywane jest
+od zera oraz zwiększenie wartości zmiennej i o jeden, tym samym pojawi się
+ciąg liczb od 0 do 100.
 */
