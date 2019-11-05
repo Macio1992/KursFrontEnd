@@ -10,6 +10,7 @@ function writeNumbersTo100() {
 
 /*
 Stworzyłam funkcję o nazwie "writeNumbersTo100". W pętli wykonywane jest
-od zera oraz zwiększenie wartości zmiennej i o jeden, tym samym pojawi się
-ciąg liczb od 0 do 100.
+przed rozpoczęciem pętli licznik i=0 i zwiększa wartość o jeden.
+W kazdej pętli sprawdzamy, czy warunek jest prawdziwy, w tym przypadku
+uruchamia się 100 razy z wartościami od 0 do 100.
 */

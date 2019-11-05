@@ -17,10 +17,10 @@ function writeNumber(n) {
 /*
 Stworzyłam funkcję o nazwie "writeNumber", który przyjmuje
 jeden parametr "n". W funkcji pierwsza instrukcja warunkowa if
-sprawdza, czy wartość podanej liczby będzie mniejsza bądz równa od 100
-i wypisuje przy podaniu róznych liczb do 100.
+sprawdza, czy warunek jest prawdziwy, w tym przypadku
+uruchamia się 100 razy z wartościami od 0 do 100.
 W przeciwnym razie, kiedy warunek jest fałszywy, wykonane
-zostanie polecenie po instrukcji else, wyświetla informację.
+zostanie polecenie po instrukcji else, wyświetla informację
 ('You entered the numbers incorrectly. The number should by smaller
 than 100.').
 */
