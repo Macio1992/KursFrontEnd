@@ -4,18 +4,15 @@
   odwróconą tablicę, funkcja niech zwraca pustą tablicę.
  */
 
-// First example
-function reverseTable (arr) {
+function reverseTable(arr) {
   let array = [];
-  for (let i = arr.length - 1; i >= 0; i--) {
-    array.push(arr[i]);
+  if (isNaN(arr)) {
+    return [];
   }
-  return array;
-}
-
-//Second example
-function reverseTable1() {
-	return [];
+    for (let i = arr.length - 1; i >= 0; i--) {
+      array.push(arr[i]);
+    }
+    return array;
 }
 
 /* Encyklopedia: Opisz podstawowe metody string: push, pop, unshift, shift, indexOf, splice */
@@ -36,7 +33,7 @@ arr.push(el1, el2);
 
 6. splice() - metoda usuwa i wstawia nowe elementy do tablicy.
 
-arr.splice( index, ileUSusnąć, noweElementy);
+arr.splice( index, howmuchToRemove, newItems);
 Parametr index określa miejsce w tablicy, od którego rozpocznie się usuwanie tablicy.
-Parametr ileUSusnąć mówi ile elementów powinno być usuniętych z tablicy.
-Parametr noweElementy dodaje nowe elementy podczas usuwania starych elementów.
+Parametr howmuchToRemove mówi ile elementów powinno być usuniętych z tablicy.
+Parametr newItems dodaje nowe elementy podczas usuwania starych elementów.
