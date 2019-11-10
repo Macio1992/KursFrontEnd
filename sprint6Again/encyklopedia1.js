@@ -1,5 +1,6 @@
 /* Encyklopedia: Opisz podstawowe metody string: push, pop, unshift, shift, indexOf, splice */
 
+/*
 1. push() - metoda dodaje elementy na końcu tablicy i zwraca jej nową długość.
 
 Mozemy przekazać jeden lub więcej elemntów:
@@ -20,3 +21,4 @@ arr.splice( index, howmuchToRemove, newItems);
 Parametr index określa miejsce w tablicy, od którego rozpocznie się usuwanie tablicy.
 Parametr howmuchToRemove mówi ile elementów powinno być usuniętych z tablicy.
 Parametr newItems dodaje nowe elementy podczas usuwania starych elementów.
+*/
