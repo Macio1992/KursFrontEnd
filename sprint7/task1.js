@@ -13,8 +13,5 @@ N/A
 */
 
 function hasKey(obj, key) {
-  for (let prop in obj) {
-    if (prop === key) return true;
-  }
-  return false;
+  return obj.hasOwnProperty(key) ? true: false;
 }
