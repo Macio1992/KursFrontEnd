@@ -20,5 +20,6 @@ If you're really stuck, unlock solutions in the Solutions tab.
 function isInRange(num, range) {
   let min = range.min;
   let max = range.max;
+
   return (num >= min && num <= max);
 }

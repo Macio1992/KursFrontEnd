@@ -15,5 +15,3 @@ N/A
 function hasKey(obj, key) {
   return obj.hasOwnProperty(key);
 }
-console.log(hasKey({ a: 44, b: 45, c: 46 }, "d"));
-console.log(hasKey({ craves: true, midnight: true, snack: true }, "morning"));
