@@ -6,40 +6,44 @@ body {
 
 .parent {
   display: flex;
+}
+
+.parent__child1 {
+  width: 20%;
+  padding: 35px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(244, 211, 93);
   text-align: center;
 }
 
-.child1 {
+.parent__child2 {
   width: 20%;
-  height: 100px;
-  background-color: rgb(244, 211, 93);
-  line-height: 100px;
-}
-
-.child2 {
-  width: 20%;
-  height: 100px;
+  padding: 35px;
+  font-family: 'Courier New', Courier, monospace;
   background-color: rgb(219, 91, 74);
-  line-height: 100px;
+  text-align: center;
 }
 
-.child3 {
+.parent__child3 {
   width: 20%;
-  height: 100px;
+  padding: 35px;
+  font-family: 'Courier New', Courier, monospace;
   background-color: rgb(226, 187, 127);
-  line-height: 100px;
+  text-align: center;
 }
 
-.child4 {
+.parent__child4 {
   width: 20%;
-  height: 100px;
+  padding: 35px;
+  font-family: 'Courier New', Courier, monospace;
   background-color: rgb(246, 123, 125);
-  line-height: 100px;
+  text-align: center;
 }
 
-.child5 {
+.parent__child5 {
   width: 20%;
-  height: 100px;
+  padding: 35px;
+  font-family: 'Courier New', Courier, monospace;
   background-color: rgb(161, 119, 90);
-  line-height: 100px;
+  text-align: center;
 }
