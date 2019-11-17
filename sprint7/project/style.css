@@ -4,46 +4,47 @@ body {
   padding: auto;
 }
 
-.parent {
+.container {
   display: flex;
+  align-items: flex-end;
 }
 
-.parent__child1 {
+.container__yellow {
   width: 20%;
-  padding: 35px;
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(244, 211, 93);
   text-align: center;
+  font-size: 0,875rem;
 }
 
-.parent__child2 {
+.container__red {
   width: 20%;
-  padding: 35px;
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(219, 91, 74);
   text-align: center;
+  font-size: 0,875rem;
 }
 
-.parent__child3 {
+.container__beige {
   width: 20%;
-  padding: 35px;
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(226, 187, 127);
   text-align: center;
+  font-size: 0,875rem;
 }
 
-.parent__child4 {
+.container__pink {
   width: 20%;
-  padding: 35px;
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(246, 123, 125);
   text-align: center;
+  font-size: 0,875rem;
 }
 
-.parent__child5 {
+.container__brown {
   width: 20%;
-  padding: 35px;
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(161, 119, 90);
   text-align: center;
+  font-size: 0,875rem;
 }

@@ -2,11 +2,10 @@
 Słowo kluczowe “this” w kontekście funkcji*/
 
 /*
-Funkcję Constructor function tworzymy w celu nowe obiekty dla uzytkowników aplikacji,
-kont bankowych, samochodów lub cokolwiek innego, które mają te same właściwości i metody.
-Constructor to zwykła funkcja, pisana z wielkiej litery.
+Funkcja Constructor function tworzy obiekty, które mają te same właściwości i metody. Aby to uzyskać, trzeba je dodać wewnątrz funkcji do obiektu 'this'.
+Ta funkcja polega na zapisywaniu nazw konstruktorów wielką literą. Mozna uzyć funkcji konstruktora do stworzenia wielu podobnych obiektów.
 
-Aby utworzyć nowe obiekty z funkcji kosntruktora i nowego operatora nalezy wykonać wielką literą.
+Konstruktory są zwykłymi funkcjami wywoływanymi przez operator 'new'.
 
 Na przykład;
 
@@ -17,14 +16,10 @@ function Person(firstName, lastName) {
 
 let person1 = new Person('Evita', 'Steinke' );
 
-function Person() jest funkcją konstruktora.
-Zeby stworzyć nową instancję funkcji i kontruktora nalezy skorzystać ze słowa kluczowego 'new'.
+function Person() jest funkcją konstruktora. Nazwa Person() jest zapisana wielką literą. Konstruktor Person() przyjmuje dwa parametry i przypisuje jego wartość do właściowości firstName i lastName obiektu this.
+Obiekt 'this' jest automatycznie tworzony przez operator 'new' w chwili wywoływawania konstruktora.
 
-W ciele funkcji definiowane są właściwości i metody obiektu.
-Właściwości i metody przypisywane są do zmiennej "this".
-
-Zwykłe funkcje słowem return zwracają wartość funkcji, natomiast konstruktora zwracają wartości
-przez funkcję konstruującą. Metoda konstruująca zwraca wartość zmiennej 'this'.
+Natomiast funkcje konstruktor zwracają cały nowo stworzony obiekt. Metoda konstruująca zwraca wartość zmiennej 'this'.
 
 function Person() {
   this.name = 'John';

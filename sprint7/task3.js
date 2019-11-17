@@ -25,5 +25,9 @@ Profit = Total Sales - Total Cost
 */
 
 function profit(info) {
-	return Math.round((info.sellPrice - info.costPrice) * info.inventory);
+  let costPrice = info.costPrice;
+  let sellPrice = info.sellPrice;
+  let inventory = info.inventory;
+
+  return Math.round((sellPrice - costPrice) * inventory);
 }
