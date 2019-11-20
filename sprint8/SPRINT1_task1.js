@@ -77,3 +77,20 @@ const tasks = [
     "createdAt": "2018-01-25T09:09:00+0200"
   }
 ];
+
+function descriptionLength() {
+  let descriptionTasks = 0;
+
+  for (let i = 0; i < tasks.length; i++) {
+    if(tasks[i].description.length > 20) {
+      descriptionTasks++;
+    }
+    console.log(tasks[i].description);
+  }
+}
+
+function returnsTheYear() {
+  let createdAtYear = tasks.filter(function(arr) {
+    return arr.createdAt;
+  });
+}
