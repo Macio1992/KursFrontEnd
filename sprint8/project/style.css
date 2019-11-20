@@ -4,24 +4,32 @@ body {
 
 .foodProducts {
   display: flex;
+  align-items: flex-end;  /* ten kod nie działa, zeby divy były na dole stronie*/
 }
 
-.foodProducts--yellow {
+.foodProducts__shopping {
+  font-size: 2,5rem;
+  width: 20%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.foodProducts__shopping--yellow {
   background-color: rgb(244, 211, 93);
 }
 
-.foodProducts--red {
+.foodProducts__shopping--red {
   background-color: rgb(219, 91, 74);
 }
 
-.foodProducts--beige {
-  background-color: rgb(226, 187, 127);
-}
-
-.foodProducts--pink {
+.foodProducts__shopping--pink {
   background-color: rgb(246, 123, 125);
 }
 
-.foodProducts--brown {
+.foodProducts__shopping--beige {
+  background-color: rgb(226, 187, 127);
+}
+
+.foodProducts__shopping--brown {
   background-color: rgb(161, 119, 90);
 }
