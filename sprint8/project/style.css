@@ -1,5 +1,7 @@
 body {
   background-color: rgba(237, 201, 130, 0.85);
+  padding: 0;
+  margin: 0;
 }
 
 .foodProducts {
