@@ -1,45 +1,27 @@
 body {
   background-color: rgba(237, 201, 130, 0.85);
-  margin: auto;
-  padding: auto;
 }
 
-.container {
+.foodProducts {
   display: flex;
-  align-items: flex-end;
 }
 
-.container__color--yellow {
-  width: 15rem;
-  font-family: 'Courier New', Courier, monospace;
+.foodProducts--yellow {
   background-color: rgb(244, 211, 93);
-  text-align: center;
 }
 
-.container__color--red {
-  width: 15rem;
-  font-family: 'Courier New', Courier, monospace;
+.foodProducts--red {
   background-color: rgb(219, 91, 74);
-  text-align: center;
 }
 
-.container__color--beige {
-  width: 15rem;
-  font-family: 'Courier New', Courier, monospace;
+.foodProducts--beige {
   background-color: rgb(226, 187, 127);
-  text-align: center;
 }
 
-.container__color--pink {
-  width: 15rem;
-  font-family: 'Courier New', Courier, monospace;
+.foodProducts--pink {
   background-color: rgb(246, 123, 125);
-  text-align: center;
 }
 
-.container__color--brown {
-  width: 15rem;
-  font-family: 'Courier New', Courier, monospace;
+.foodProducts--brown {
   background-color: rgb(161, 119, 90);
-  text-align: center;
 }
