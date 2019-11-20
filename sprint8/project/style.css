@@ -4,14 +4,13 @@ body {
 
 .foodProducts {
   display: flex;
-  align-items: flex-end;  /* ten kod nie działa, zeby divy były na dole stronie*/
+  align-items: flex-end;
 }
 
 .foodProducts__shopping {
-  font-size: 2,5rem;
-  width: 20%;
+  width: calc(100% / 5);
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .foodProducts__shopping--yellow {
