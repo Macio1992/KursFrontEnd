@@ -78,19 +78,19 @@ const tasks = [
   }
 ];
 
-function descriptionLength() {
-  let descriptionTasks = 0;
+function takeTasksWithALargerDescriptionthan20() {
+  let takeTaskDescription = 0;
 
   for (let i = 0; i < tasks.length; i++) {
     if(tasks[i].description.length > 20) {
-      descriptionTasks++;
+      takeTaskDescription++;
     }
-    console.log(tasks[i].description);
+    return takeTaskDescription;
   }
 }
 
-function returnsTheYear() {
+function takeTheTasksOfTheYear() {
   let createdAtYear = tasks.filter(function(arr) {
-    return arr.createdAt;
+    return arr.createdAt
   });
 }
