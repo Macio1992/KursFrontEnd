@@ -78,19 +78,22 @@ const tasks = [
   }
 ];
 
-function takeTasksWithALargerDescriptionthan20() {
-  let takeTaskDescription = 0;
+function getDescriptionLengthThan20() {
+  let numberOfTasks = 0;
 
   for (let i = 0; i < tasks.length; i++) {
-    if(tasks[i].description.length > 20) {
-      takeTaskDescription++;
+    if (tasks[i].description.length > 20) {
+      numberOfTasks++;
     }
-    return takeTaskDescription;
   }
+  return numberOfTasks;
 }
 
-function takeTheTasksOfTheYear() {
-  let createdAtYear = tasks.filter(function(arr) {
-    return arr.createdAt
+function  takeTheTasksOfTheYear(arr) {
+  let newArray = [];
+
+  tasks.forEach(function(arr) {
+    newArray.push(arr.createdAt);
   });
+  return newArray;
 }
