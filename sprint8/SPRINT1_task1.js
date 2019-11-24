@@ -89,11 +89,8 @@ function getDescriptionLengthThan20() {
   return numberOfTasks;
 }
 
-function  takeTheTasksOfTheYear(arr) {
-  let newArray = [];
-
-  tasks.forEach(function(arr) {
-    newArray.push(arr.createdAt);
-  });
-  return newArray;
+function takeTheTasksOfTheYear(arr) {
+  for (let i = 0; i < tasks.length; i++) {
+    return tasks[i].createdAt === arr;
+  }
 }
