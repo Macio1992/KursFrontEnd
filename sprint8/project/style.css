@@ -1,0 +1,38 @@
+body {
+  background-color: rgba(237, 201, 130, 0.85);
+  padding: 0;
+  margin: 0;
+}
+
+.foodProducts {
+  display: flex;
+}
+
+.foodProducts__shopping {
+  width: calc(100% / 5);
+  padding: 1.5rem 0;
+  list-style: none;
+  text-align: center;
+  font-size: 0.875rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.foodProducts__shopping--yellow {
+  background-color: rgb(244, 211, 93);
+}
+
+.foodProducts__shopping--red {
+  background-color: rgb(219, 91, 74);
+}
+
+.foodProducts__shopping--pink {
+  background-color: rgb(246, 123, 125);
+}
+
+.foodProducts__shopping--beige {
+  background-color: rgb(226, 187, 127);
+}
+
+.foodProducts__shopping--brown {
+  background-color: rgb(161, 119, 90);
+}
