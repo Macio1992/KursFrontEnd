@@ -1,0 +1,28 @@
+body {
+margin: 0.5rem;
+padding: 4rem;
+}
+
+.loginForm {
+}
+
+.loginForm__container {
+  background-color: #46539e;
+  width: 250px;
+  height: 250px;
+}
+
+.loginForm__header {
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+.loginForm__header p {
+  font-size: 3em;
+}
+
+.loginForm__form {
+
+}
+
