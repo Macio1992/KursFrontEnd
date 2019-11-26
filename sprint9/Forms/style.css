@@ -1,28 +1,75 @@
 body {
-margin: 0.5rem;
-padding: 4rem;
+margin: 1rem;
+padding: 1.9rem;
 }
 
 .loginForm {
+  width: 250px;
+  margin: auto;
 }
 
 .loginForm__container {
-  background-color: #46539e;
+  position: absolute;
+  margin: 1.25rem;
+  padding: 1rem;
   width: 250px;
-  height: 250px;
+  background-color: #46539e;
 }
 
 .loginForm__header {
-  font-size: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 1rem;
+  font-size: 1.3rem;
   text-align: center;
   color: white;
 }
 
 .loginForm__header p {
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .loginForm__form {
-
+  margin-top: 20px;
 }
 
+.loginForm__field {
+  margin-bottom: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.loginForm__field input {
+  background-color: #46539e;
+  border: none;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  padding: 0.625rem;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: cornflowerblue;
+}
+
+.loginForm__select {
+  height: 2.1875rem;
+  width: 100%;
+  border: none;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.loginForm__select select {
+  position: absolute;
+  border: 0;
+  border-style: solid;
+}
+
+.loginForm__button {
+  background-color: #2ebaef;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 0.625rem;
+}
