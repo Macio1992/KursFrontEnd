@@ -1,7 +1,3 @@
-body {
-margin: 1rem;
-padding: 1.9rem;
-}
 
 .loginForm {
   width: 250px;
@@ -9,11 +5,8 @@ padding: 1.9rem;
 }
 
 .loginForm__container {
-  position: absolute;
-  margin: 1.25rem;
-  padding: 1rem;
-  width: 250px;
   background-color: #46539e;
+  padding: 1rem;
 }
 
 .loginForm__header {
@@ -47,23 +40,21 @@ padding: 1.9rem;
   width: 100%;
 }
 
+.loginForm__field input:focus {
+  outline: none;
+}
+
 ::-webkit-input-placeholder {
   color: cornflowerblue;
 }
 
 .loginForm__select {
-  height: 2.1875rem;
+  padding: 5rem 0;
   width: 100%;
   border: none;
   position: relative;
   display: inline-block;
   overflow: hidden;
-}
-
-.loginForm__select select {
-  position: absolute;
-  border: 0;
-  border-style: solid;
 }
 
 .loginForm__button {
