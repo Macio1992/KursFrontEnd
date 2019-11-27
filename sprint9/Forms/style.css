@@ -10,15 +10,9 @@
 }
 
 .loginForm__header {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 1rem;
   font-size: 1.3rem;
   text-align: center;
   color: white;
-}
-
-.loginForm__header p {
-  font-size: 3rem;
 }
 
 .loginForm__form {
@@ -27,11 +21,9 @@
 
 .loginForm__field {
   margin-bottom: 20px;
-  width: 100%;
-  overflow: hidden;
 }
 
-.loginForm__field input {
+.loginForm__field__input {
   background-color: #46539e;
   border: none;
   border-bottom: 1px solid white;
@@ -40,21 +32,17 @@
   width: 100%;
 }
 
-.loginForm__field input:focus {
+.loginForm__field__input:focus {
   outline: none;
 }
 
-.loginForm__field input::-webkit-input-placeholder {
+.loginForm__field__input::-webkit-input-placeholder {
   color: cornflowerblue;
 }
 
 .loginForm__select {
-  padding: 5rem 0;
   width: 100%;
-  border: none;
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
+  padding: 5rem; /*nie działa*/
 }
 
 .loginForm__button {
