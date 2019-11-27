@@ -44,7 +44,7 @@
   outline: none;
 }
 
-::-webkit-input-placeholder {
+.loginForm__field input::-webkit-input-placeholder {
   color: cornflowerblue;
 }
 
