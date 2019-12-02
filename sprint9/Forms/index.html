@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="loginForm">
+    <div class="loginForm__container">
+      <h1 class="loginForm__header">Add new task</h1>
+      <form class="loginForm__form">
+        <div class="loginForm__field">
+          <input class="loginForm__field__input" type="text" name="title" id="title" placeholder="Title">
+        </div>
+        <div class="loginForm__field">
+          <input class="loginForm__field__input" type="text" name="description" id="description" placeholder="Description">
+        </div>
+        <div class="loginForm__field">
+          <select class="loginForm__select">
+            <option value="0"></option>
+            <option value="1">TODO</option>
+            <option value="2">IN_PROGRESS</option>
+            <option value="3">DONE</option>
+          </select>
+        </div>
+        <div class="loginForm__field">
+          <button class="loginForm__button">Add your task</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+.loginForm {
+  width: 250px;
+  margin: auto;
+}
+
+.loginForm__container {
+  background-color: #46539e;
+  padding: 1rem;
+}
+
+.loginForm__header {
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+}
+
+.loginForm__form {
+  margin-top: 1.25rem;
+}
+
+.loginForm__field {
+  margin-bottom: 1.25rem;
+}
+
+.loginForm__field__input {
+  background-color: #46539e;
+  border: none;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  padding: 0.625rem;
+  width: 100%;
+}
+
+.loginForm__field__input:focus {
+  outline: none;
+}
+
+.loginForm__field__input::-webkit-input-placeholder {
+  color: cornflowerblue;
+}
+
+.loginForm__select {
+  width: 100%;
+  padding: 0.625rem;
+}
+
+.loginForm__button {
+  background-color: #2ebaef;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 0.625rem;
+  text-transform: uppercase;
+}
