@@ -26,7 +26,7 @@
 
 */
 
-const tasks = [
+let tasks = [
   {
     "id": 0,
     "title": "Zrozumieć zadanie",
@@ -98,3 +98,10 @@ const tasks = [
     "createdAt": "2018-01-25T09:09:00+0200"
   }
 ];
+
+function writeAllTitlesAndYears() {
+
+  for (let i = 0; i < tasks.length; i++){
+    console.log(tasks[i].title + " - " + tasks[i].createdAt);
+  }
+}
