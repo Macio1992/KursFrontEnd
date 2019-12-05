@@ -26,7 +26,7 @@
 
 */
 
-let tasks = [
+const tasks = [
   {
     "id": 0,
     "title": "Zrozumieć zadanie",
@@ -102,6 +102,14 @@ let tasks = [
 function writeAllTitlesAndYears() {
 
   for (let i = 0; i < tasks.length; i++){
-    console.log(tasks[i].title + " - " + tasks[i].createdAt);
+    console.log(tasks[i].title + " - " + tasks[i].createdAt.substring(0, 4));
   }
+}
+
+function formatDate(task) {
+  let day = task.substring(0, 4);
+  let month = task.substring(5, 7);
+  let year = task.substring(8, 10);
+
+  return year + '/' + month + '/' + day;
 }
