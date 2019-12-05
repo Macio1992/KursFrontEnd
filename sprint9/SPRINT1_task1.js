@@ -38,7 +38,7 @@ const tasks = [
     "id": 4,
     "title": "Edycja",
     "description": "edytowanie szczegółów zadania (tytuł, opis, status [czekające, realizowane, gotowe]) z możliwością zmiany statusów tylko w przód (czekające -> realizowane, realizowane -> gotowe)",
-    "status": "TODO",
+    "status": "IN_PROGRESS",
     "createdAt": "2018-10-30T09:04:00+0200"
   },
   {
@@ -52,14 +52,14 @@ const tasks = [
     "id": 6,
     "title": "Kolory statusów",
     "description": "rozróżnianie kolorami zadań w poszczególnych statusach",
-    "status": "TODO",
+    "status": "DONE",
     "createdAt": "2018-02-01T09:06:00+0200"
   },
   {
     "id": 7,
     "title": "Filtrowanie po statusach",
     "description": "ograniczanie widoku tylko do wybranych statusów (jednego bądź wielu)",
-    "status": "TODO",
+    "status": "DONE",
     "createdAt": "2017-12-21T09:07:00+0200"
   },
   {
@@ -73,7 +73,7 @@ const tasks = [
     "id": 9,
     "title": "Zaniedbane zadania",
     "description": "wyróżnianie zadań, które są realizowane dłużej niż 3 dni bądź czekają na realizację dłużej niż 5 dni (oba parametry niezależnie konfigurowalne i zapisywane w ciasteczku)",
-    "status": "TODO",
+    "status": "DONE",
     "createdAt": "2018-01-25T09:09:00+0200"
   }
 ];
@@ -93,10 +93,67 @@ function getTheTasksOfTheYear(year) {
   let tasksFound = [];
 
   for (let i = 0; i < tasks.length; i++) {
-    if ( tasks[i].createdAt === year) {
-      tasksFound.push(year[i]);
+    const yearFromTheDate = tasks[i].createdAt.substring(0, 4);
+
+    if (yearFromTheDate === year) {
+      tasksFound.push(tasks[i]);
     }
-    return tasksFound;
   }
-  return [];
+
+  return tasksFound;
+}
+
+console.log(getTheTasksOfTheYear('2018'));
+
+
+// programista tworz samochód(FUNCKJA), żeby wykonał dla nas zadanie znalezienia tasków o jakimś statusie
+// status wrzucamy mu na dach(nawiasy, gdzie dajemy parametry). Do bagażnika (CIAŁO FUNKCJI) wrzucamy
+// duże puste pudło (PUSTĄ TABLICĘ) żeby znalezione taski tam wrzucić. Oddajemu użytkownikowi to co na
+// bagażniku. (RETURN - oddanie pudła ze znalezionymi taskami programiście)
+function getTasksWithStatus(status) {
+  let foundTasks = [];
+
+  /* szukanie tasków */
+  for (let i = 0; i < tasks.length; i++) {
+    if (tasks[i].status === status) {
+      foundTasks.push(tasks[i]);
+    }
+  }
+
+  return foundTasks;
+}
+
+const students = [
+  {
+    id: 1,
+    name: 'Mark',
+    index: 800
+  },
+  {
+    id: 2,
+    name: 'John',
+    index: 223
+  },
+  {
+    id: 3,
+    name: 'Edith',
+    index: 109
+  },
+  {
+    id: 4,
+    name: 'Mike',
+    index: 478
+  },
+];
+
+function getStudentsWithIndexHigherThan200() {
+  let foundStudents = [];
+
+  for (let i = 0; i < students.length; i++) {
+    if (students[i].index > 200) {
+      foundStudents.push(students[i]);
+    }
+  }
+
+  return foundStudents;
 }
