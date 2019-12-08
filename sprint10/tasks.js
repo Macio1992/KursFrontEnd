@@ -101,14 +101,15 @@ const tasks = [
 
 function writeAllTitlesAndYears() {
   for (let i = 0; i < tasks.length; i++){
-    console.log(tasks[i].title + " - " + tasks[i].createdAt.substring(0, 4));
+    console.log(`${tasks[i].title + " - " + tasks[i].createdAt.substring(0, 4)}`);
   }
 }
+writeAllTitlesAndYears();
 
 function formatDate(task) {
-  let day = task.createdAt.substring(0, 4);
-  let month = task.createdAt.substring(5, 7);
-  let year = task.createdAt.substring(8, 10);
+  const day = task.createdAt.substring(0, 4);
+  const month = task.createdAt.substring(5, 7);
+  const year = task.createdAt.substring(8, 10);
 
   return year + '/' + month + '/' + day;
 }
