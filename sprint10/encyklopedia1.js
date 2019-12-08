@@ -337,4 +337,4 @@ Function.apply(value of this, [arg1, arg2, ..])
 
 .bind()
 newFunction = Function.bind(value of this, arg1, arg2 …)
-//Zwróci nową funkcję
+//Zwróci nową funkcję.
