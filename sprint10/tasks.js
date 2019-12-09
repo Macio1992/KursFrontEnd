@@ -1,7 +1,28 @@
 /*
   Stwórz tablicę obiektów. Nazwij ją 'tasks'. Przypisz do niej zadania z pliku 'tasks.json'.
-  1) Napisz funkcję, która wyliczy i wypisze do konsoli statystykę ile jest zadań, których długośc opisu jest większa niż 20 znaków
-  2) Napisz funkcję, która przyjmie rok i zwróci wszystkie taski z tego roku w postaci tablicy
+  1) Napisz funkcję, która dla tablicy 'tasks' wypisze wszystkie tytuły tasków i roki w których zostały stworzone.
+
+  Wywołanie funkcji ma wypisywać do konsoli:
+
+  Zrozumieć zadanie - 2018
+  Dostęp do API - 2017
+  Lista zadań 2016
+  ...
+
+  2) Napisz funkcję, która przyjmie jako parametr task i zwróci sformatowaną datę w postaci
+  DZIEŃ/MIESIĄC/ROK
+
+  np.
+  Przekazujemy do funkcji task:
+  {
+    "id": 0,
+    "title": "Zrozumieć zadanie",
+    "description": "Przeczytać opis zadania i go zrozumieć",
+    "status": "DONE",
+    "createdAt": "2018-04-26T09:00:00+0200"
+  }
+  A funkcja ma zwrócić:
+  '26/04/2018'
 
 */
 
@@ -38,7 +59,7 @@ const tasks = [
     "id": 4,
     "title": "Edycja",
     "description": "edytowanie szczegółów zadania (tytuł, opis, status [czekające, realizowane, gotowe]) z możliwością zmiany statusów tylko w przód (czekające -> realizowane, realizowane -> gotowe)",
-    "status": "IN_PROGRESS",
+    "status": "TODO",
     "createdAt": "2018-10-30T09:04:00+0200"
   },
   {
@@ -52,14 +73,14 @@ const tasks = [
     "id": 6,
     "title": "Kolory statusów",
     "description": "rozróżnianie kolorami zadań w poszczególnych statusach",
-    "status": "DONE",
+    "status": "TODO",
     "createdAt": "2018-02-01T09:06:00+0200"
   },
   {
     "id": 7,
     "title": "Filtrowanie po statusach",
     "description": "ograniczanie widoku tylko do wybranych statusów (jednego bądź wielu)",
-    "status": "DONE",
+    "status": "TODO",
     "createdAt": "2017-12-21T09:07:00+0200"
   },
   {
@@ -73,87 +94,22 @@ const tasks = [
     "id": 9,
     "title": "Zaniedbane zadania",
     "description": "wyróżnianie zadań, które są realizowane dłużej niż 3 dni bądź czekają na realizację dłużej niż 5 dni (oba parametry niezależnie konfigurowalne i zapisywane w ciasteczku)",
-    "status": "DONE",
+    "status": "TODO",
     "createdAt": "2018-01-25T09:09:00+0200"
   }
 ];
 
-function getDescriptionLengthThan20() {
-  let numberOfTasks = 0;
-
-  for (let i = 0; i < tasks.length; i++) {
-    if (tasks[i].description.length > 20) {
-      numberOfTasks++;
-    }
+function writeAllTitlesAndYears() {
+  for (let i = 0; i < tasks.length; i++){
+    console.log(`${tasks[i].title + " - " + tasks[i].createdAt.substring(0, 4)}`);
   }
-  return numberOfTasks;
 }
+writeAllTitlesAndYears();
 
-function getTheTasksOfTheYear(year) {
-  let tasksFound = [];
+function formatDate(task) {
+  const day = task.createdAt.substring(0, 4);
+  const month = task.createdAt.substring(5, 7);
+  const year = task.createdAt.substring(8, 10);
 
-  for (let i = 0; i < tasks.length; i++) {
-    const yearFromTheDate = tasks[i].createdAt.substring(0, 4);
-
-    if (yearFromTheDate === year) {
-      tasksFound.push(tasks[i]);
-    }
-  }
-
-  return tasksFound;
-}
-
-console.log(getTheTasksOfTheYear('2018'));
-
-
-// programista tworz samochód(FUNCKJA), żeby wykonał dla nas zadanie znalezienia tasków o jakimś statusie
-// status wrzucamy mu na dach(nawiasy, gdzie dajemy parametry). Do bagażnika (CIAŁO FUNKCJI) wrzucamy
-// duże puste pudło (PUSTĄ TABLICĘ) żeby znalezione taski tam wrzucić. Oddajemu użytkownikowi to co na
-// bagażniku. (RETURN - oddanie pudła ze znalezionymi taskami programiście)
-function getTasksWithStatus(status) {
-  let foundTasks = [];
-
-  /* szukanie tasków */
-  for (let i = 0; i < tasks.length; i++) {
-    if (tasks[i].status === status) {
-      foundTasks.push(tasks[i]);
-    }
-  }
-
-  return foundTasks;
-}
-
-const students = [
-  {
-    id: 1,
-    name: 'Mark',
-    index: 800
-  },
-  {
-    id: 2,
-    name: 'John',
-    index: 223
-  },
-  {
-    id: 3,
-    name: 'Edith',
-    index: 109
-  },
-  {
-    id: 4,
-    name: 'Mike',
-    index: 478
-  },
-];
-
-function getStudentsWithIndexHigherThan200() {
-  let foundStudents = [];
-
-  for (let i = 0; i < students.length; i++) {
-    if (students[i].index > 200) {
-      foundStudents.push(students[i]);
-    }
-  }
-
-  return foundStudents;
+  return year + '/' + month + '/' + day;
 }
