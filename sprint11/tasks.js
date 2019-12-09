@@ -13,15 +13,6 @@
     funkcja ma nam zwrócić tablicę posortowaną rosnąco: ['Raphael', 'Leonardo', 'Donatello', 'Michelangelo']
 */
 
-// function sortArray(a, b) {
-//   return a.length - b.length;
-// }
-
-// const tab = ['Leonardo', 'Michelangelo', 'Raphael', 'Donatello'];
-
-// const tab2 = tab.sort(sortArray);
-// console.log(tab2);
-
 function sortArray(arr) {
   arr.push();
 
