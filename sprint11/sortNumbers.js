@@ -2,9 +2,9 @@
     posortowaną tablice rosnąco. */
 
 function sortNumbersArray(elements) {
-	// 1. Stworz tablice pomocniczą o nazwie sortedElements
+	// 1. Stworz tablice pomocnicza o nazwie sortedElements
 
-	// 2. Znajdź najmniejszy element w tablicy
+	// 2. Znajdź indeks najmniejszego elementu w tablicy
 
 	// 3. Dopoki tablica nie jest pusta
 		// 4. usun najmniejszy element z tablicy elements
