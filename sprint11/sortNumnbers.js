@@ -1,14 +1,14 @@
-/* Zadanie 1. Stwórz funkcję, która przyjmuje tablicę liczb, i zwraca
+/* Stwórz funkcję, która przyjmuje tablicę liczb, i zwraca
     posortowaną tablice rosnąco. */
 
 function sortNumbersArray(elements) {
-	// Stworz tablice pomocniczą o nazwie sortedElements
+	// 1. Stworz tablice pomocniczą o nazwie sortedElements
 
-	// Znajdź najmniejszy element w tablicy
+	// 2. Znajdź najmniejszy element w tablicy
 
-	// Dopoki tablica nie jest pusta
-		// usun najmniejszy element z tablicy elements
-		// dodaj znaleziony, najmniejszy element do tablicy sortedElements
+	// 3. Dopoki tablica nie jest pusta
+		// 4. usun najmniejszy element z tablicy elements
+		// 5. dodaj znaleziony, najmniejszy element do tablicy sortedElements
 
-	// zwroc tablice sortedElements
+	// 6. zwroc tablice sortedElements
 }
