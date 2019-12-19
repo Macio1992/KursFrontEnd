@@ -16,11 +16,7 @@ function sortNumbersArray(elements) {
 function sortNumbersArray(elements) {
 	let sortedElements = [];
 	let min = elements[0];
+	let minIndex = 0;
 
-	for (let i = 0; i < elements.length; i++) {
-		if (min > elements[i]) {
-			min = elements[i];
-		}
-	}
+
 	return sortedElements;
-}
