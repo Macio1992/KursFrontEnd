@@ -2,14 +2,15 @@
     posortowaną tablice rosnąco. */
 
 function sortNumbersArray(elements) {
-	let sortedElements = [];
+	/*
 
-	let min = elements[minIndex];
-	let minIndex = 0;
+	1. Stwórz pomocniczą tablicę o nazwie "sortedElements"
 
-	// 3. Dopoki tablica nie jest pusta
-		// 4. usun najmniejszy element z tablicy elements
-		// 5. dodaj znaleziony, najmniejszy element do tablicy sortedElements
+		2. Dopóki tablica nie jest pusta
+			2a. Znajdź indeks najmniejszego elementu z tablicy "elements"
+			2b. Dodaj element o najmniejszym indeksie do tablicy "sortedElements"
+			2c. Usuń element o najmniejszym indeksie z tablicy "elements"
+		3. Zwróć tablicę "sortedElements"
 
-	return sortedElements;
+	*/
 }
