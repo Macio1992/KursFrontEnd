@@ -4,7 +4,7 @@
 function sortNumbersArray(elements) {
 	/*
 
-	1. Stwórz pomocniczą tablicę o nazwie "sortedElements"
+		1. Stwórz pomocniczą tablicę o nazwie "sortedElements"
 
 		2. Dopóki tablica nie jest pusta
 			2a. Znajdź indeks najmniejszego elementu z tablicy "elements"
