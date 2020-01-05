@@ -12,3 +12,14 @@
   findNumberIndex(999) powinna zwrócić -1
   findNumberIndex(99) powinna zwrócić -1
 */
+
+let numbers = [45, 56, 1, -4, 6, 7, 8, 9];
+
+function findNumberIndex(number) {
+  for (let i = 0; i < numbers.length; i++) {
+    if (number == numbers[i]) {
+      return i;
+    }
+  }
+  return -1;
+}
