@@ -1,5 +1,5 @@
 /*
-  Stwórz globalną tablię liczb w tym pliku o nazwie 'numbers'. Dodaj tam liczby:
+  Zadanie 1. Stwórz globalną tablię liczb w tym pliku o nazwie 'numbers'. Dodaj tam liczby:
   [45, 56, 1, -4, 6, 7, 8, 9]
   Zadanie 1. Stwórz funkcję o nazwie 'findNumberIndex()'. Niech funkcja przyjmie jeden parametr o nazwie 'number'.
   Jeżeli 'number' istnieje w tablicy 'numbers', niech funkcja zwróci jej indeks.
@@ -11,6 +11,9 @@
   findNumberIndex(45) powinna zwrócić 0
   findNumberIndex(999) powinna zwrócić -1
   findNumberIndex(99) powinna zwrócić -1
+
+  Zadanie 2. Stwórz funkcję, o nazwie 'removeElementFromArray()'. Niech funkcja przyjmie jeden parametr o nazwie 'elementToRemove',
+  Użyj funkcji 'findNumberIndex()', żeby usunąć element z tablicy 'numbers'.
 */
 
 let numbers = [45, 56, 1, -4, 6, 7, 8, 9];
@@ -22,4 +25,8 @@ function findNumberIndex(number) {
     }
   }
   return -1;
+}
+
+for (let i = 0; i <= numbers.length; i++) {
+  console.log('findnumberindex ', findNumberIndex(numbers[i]));
 }
