@@ -27,6 +27,17 @@ function findNumberIndex(number) {
   return -1;
 }
 
-for (let i = 0; i <= numbers.length; i++) {
-  console.log('findnumberindex ', findNumberIndex(numbers[i]));
-}
+function removeElementFromArray(elementToRemove) {
+  for (let i = 0; i <= numbers.length; i++) {
+    if ( numbers[i] === elementToRemove) {
+      numbers.splice(i, 1);
+      console.log(numbers);
+      console.log('findnumberindex ', findNumberIndex(numbers[i]));
+    }
+    }
+  }
+removeElementFromArray(6);
+removeElementFromArray(9);
+removeElementFromArray(45);
+removeElementFromArray(999);
+removeElementFromArray(99);
